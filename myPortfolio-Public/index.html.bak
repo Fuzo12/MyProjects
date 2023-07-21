@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+███████╗ ██╗      ██████╗  ██╗  ██║ ██████╗  ██╗  ██████╗
+██╔════╝ ██║      ██╔══██╗ ██║  ██║ ██╔══██╗ ██║ ██╔═══██╗
+██║      ██║      ███████║ ██║  ██║ ██║  ██║ ██║ ██║   ██║
+██║      ██║      ██╔══██║ ██║  ██║ ██║  ██║ ██║ ██║   ██║
+███████╗ ███████╗ ██║  ██║ ███████║ ██████║╝ ██║ ╚██████╔╝
+╚══════╝ ╚══════╝ ╚═╝  ╚═╝ ╚══════╝ ╚═════╝  ╚═╝  ╚═════╝
+███████╗  ██████╗  ███████╗ ██╗      ██╗  ██╗  ██████╗
+██╔════╝ ██╔═══██╗ ██╔════╝ ██║      ██║  ██║ ██╔═══██╗
+██║      ██║   ██║ █████╗   ██║      ███████║ ██║   ██║
+██║      ██║   ██║ ██╔══╝   ██║      ██╔══██║ ██║   ██║
+███████╗ ╚██████╔╝ ███████╗ ███████╗ ██║  ██║ ╚██████╔╝
+╚══════╝  ╚═════╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═════╝
+
+Designed with ♥ in Portimão-Portugal
+Check my CV: https://claudiocoelho.com/cv.pdf
+-->
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+        <title>Claudio Coelho</title> <!-- Titulo do Site-->
+            <link rel="icon" type="image/x-icon" href="/png/favicon/favicon.ico"><!-- icon do tipo favicon para o separador do browser-->
+            <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"> <!-- Link do Bootstrap-->
+            <link rel="stylesheet" href="css/myPortfolio.css"> <!-- 13. Link do css do website-->
+            <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <!-- BARRA PRETA -->
+    <div class="header-black" > <!-- o container serve para centrar os objetos do menu -->
+        <div class="container">
+            <ul class="pull-right"><!-- pull-right carrega os icons dos clubs da esquerda para a direita -->
+                <li class="icon-01"><a href=""></a></li> <!-- itens da barra preta -->
+                <li class="icon-02"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-03"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-04"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-05"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-06"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-07"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-08"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-09"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-10"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-11"><a href="#"></a></li> <!-- itens da barra preta -->
+                <li class="icon-12"><a href="#"></a></li> <!-- itens da barra preta -->
+            </ul>
+
+        </div>
+    </div>
+    <!-- BARRA do MENU -->
+    <div id="menu">
+        <div class="nav nav-pills pull-right">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#bio">bio</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="https://medium.com/" target="_blank">blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- LOGOTIPO Claudio Coelho -->
+    <div class="container">
+        <a href="./">
+            <img id="logotipo" src="png/logotipo.png" alt="Logotipo">
+        </a>
+    </div>
+    </header>
+
+    <!-- SECÇÃO DA IMAGEM E TITULO PRINCIPAL -->
+    <section id="seccao1">
+        <div id="imagem-principal"></div>
+        <div class="container">
+            <ul>
+                <li><h3 class="text-footer"S>Developer</h3></li>
+                <li><h1 class="text-footer">Cláudio Coelho</h1></li>
+                <li><h3 class="text-footer">Full-Stack | UX/UI Designer</h3></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SECÇÃO BIO -->
+    <section id="bio">
+        <h1>Bio</h1>
+        <div class="container">
+            <div class="row">
+                <div id="bio-table" class="col-lg-6">
+                    <h1 style="text-align: left">Product Expert with +7 years experience</h1>
+                    <p style="text-align: justify">
+                        Enjoy moving fast, launching when 75% done and making adjustments on
+                        the fly. I identify issues quickly and bring solutions just as fast. I love working
+                        on real challenges that bring real solutions to people and a staunch advocate
+                        of product, agile and user experience. I have an insatiable curiosity and I am
+                        always looking for ways to step out of my comfort zone and take extra mile.
+                    </p>
+                    <!-- Botão CV -->
+                    <div id="cv-button" class="col-lg-12" >
+                        <a href="./cv.pdf" download="ClaudioCoelho-CV.pdf">
+                            <button class="custom-btn btn-7"><span>Download CV</span></button>
+                        </a>
+                    </div>
+                </div> <!-- Fim da coluna do texto -->
+                <div id="bio-photo" class="col-lg-6">
+                    <img class="img-fluid" src="png/foto.jpg">
+                </div>
+            </div>
+        </div><!-- Fim do container da Bio -->
+
+    </section>
+
+    <!-- SECÇÃO WORK -->
+    <section id="work">
+        <h1>Work</h1>
+    </section>
+
+    <!-- SECÇÃO SKILLS -->
+    <section id="skills">
+        <h1>Skills</h1>
+    </section>
+
+    <!-- SECÇÃO CONTACT -->
+    <section id="contact" >
+        <h1>Contact</h1>
+        <p></p>
+        <div class="container-form" >
+            <div class="row">
+                <div id="box-form"> <!-- Box do formulário -->
+                    <form method="POST" action="formulario.php"> <!-- method é a forma como é enviada a informação do formulario GET não esconde a info e POST esconde a info | action é para onde envia a info  -->
+                        <div class="form-group"> <!-- formulário -->
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="first-name">Full name*</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="first" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="last-name" style="color: #FFFFFF"> .</label>
+                                    <input type="text" class="form-control" id="last-name" placeholder="last">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email*</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message*</label>
+                                <textarea id="message" name="message" rows="5" cols="40" style="color: #6c757d" required> send me a few words...
+                                </textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                    <label class="form-check-label" for="gridCheck">I'm not a Robot!</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div> <!-- box-form -->
+            </div> <!-- row -->
+        </div> <!-- Container -->
+    </section>
+
+    <div class="floating-container">
+        <a href="./cv.pdf" download="ClaudioCoelho-CV.pdf" class="btn btn-primary btn-sm"><span>Check My CV</span></a>
+
+        <!--
+        <button class="btn btn btn-primary">
+            <a href="./cv.pdf" download="ClaudioCoelho-CV.pdf"><span>Check My CV</span></a>
+        </button>
+        -->
+
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script><!-- Link do Jquery -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script><!-- Link do JavaScript -->
+</body>
+<footer>
+    <p class="text-footer">
+        <small class="text-footer">
+            <span>©2023 Designed by </span>
+            <span style="color:#A42447"> &#60/&#62</span>
+            <a href="./" >Claudio Coelho</a>
+        </small>
+    </p>
+</footer>
+</html>
+
+
+<!--
+TODO: colocar as informçãoes em falta no <head>
+TODO: uniformizar as margens do formulário da seção Contact
+TODO: centrar melhor o botão "Download CV" na secção BIO
+TODO: Criar o botão lateral do género "Book Now" mas para download do CV
+-->
+

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<!--
+███████╗ ██╗      ██████╗  ██╗  ██║ ██████╗  ██╗  ██████╗
+██╔════╝ ██║      ██╔══██╗ ██║  ██║ ██╔══██╗ ██║ ██╔═══██╗
+██║      ██║      ███████║ ██║  ██║ ██║  ██║ ██║ ██║   ██║
+██║      ██║      ██╔══██║ ██║  ██║ ██║  ██║ ██║ ██║   ██║
+███████╗ ███████╗ ██║  ██║ ███████║ ██████║╝ ██║ ╚██████╔╝
+╚══════╝ ╚══════╝ ╚═╝  ╚═╝ ╚══════╝ ╚═════╝  ╚═╝  ╚═════╝
+███████╗  ██████╗  ███████╗ ██╗      ██╗  ██╗  ██████╗
+██╔════╝ ██╔═══██╗ ██╔════╝ ██║      ██║  ██║ ██╔═══██╗
+██║      ██║   ██║ █████╗   ██║      ███████║ ██║   ██║
+██║      ██║   ██║ ██╔══╝   ██║      ██╔══██║ ██║   ██║
+███████╗ ╚██████╔╝ ███████╗ ███████╗ ██║  ██║ ╚██████╔╝
+╚══════╝  ╚═════╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═════╝
+
+Designed with ♥ in Portimão-Portugal
+Check my CV: https://claudiocoelho.com/Claudio-Coelho-CV.pdf
+-->
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cláudio Coelho">
+    <meta name= "description"  content="Meu nome é Cláudio Coelho, desenvolvo aplicações web e de alta qualidade, concentrado em performance, animações, responsividade e SEO.">
+    <meta name="keywords"
+        content="sites, web, developer, frontend, claudio coelho, ui designer, programador, front-end, ui, website, portfólio, backend, back-end, python, html, css, java, javascript, sql, mogodb, postgres">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Claudio Coelho</title>
+            <link rel="icon" type="image/x-icon" href="/png/favicon/favicon.ico">
+            <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/myPortfolio.css">
+            <link rel="stylesheet" href="css/myPortfolio-mobile.css">
+            <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div id="menu-mobile" class="visible-xs">
+            <ul id="open-menu-itens" class="list-unstyled">
+                <li><a href="#">home</a></li>
+                <li><a href="#bio">bio</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="https://medium.com/@claudio-coelho" target="_blank">blog</a></li>
+                <br>
+                <li>
+                    <a id="menu-git-icon" href="https://github.com/Fuzo12/" target="_blank"><i class="fa fa-github" ></i></a>&#60
+                    <a id="menu-linkedin-icon" href="https://pt.linkedin.com/in/cl%C3%A1udio-coelho-1b924552" target="_blank"><i class="fa fa-linkedin-square" ></i></a>
+                </li>
+            </ul>
+
+            <div class="bar-close">
+                <button type="button" id="close-x" class="btn btn-close"><i class="fa fa-close"></i></button>
+            </div>
+
+        </div>
+
+        <div class="header-black" >
+            <div class="container">
+                <button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+
+                <ul class="pull-right">
+                    <li class="icon-01"><a href=""></a></li>
+                    <li class="icon-02"><a href="#"></a></li>
+                    <li class="icon-03"><a href="#"></a></li>
+                    <li class="icon-04"><a href="#"></a></li>
+                    <li class="icon-05"><a href="#"></a></li>
+                    <li class="icon-06"><a href="#"></a></li>
+                    <li class="icon-07"><a href="#"></a></li>
+                    <li class="icon-08"><a href="#"></a></li>
+                    <li class="icon-09"><a href="#"></a></li>
+                    <li class="icon-10"><a href="#"></a></li>
+                    <li class="icon-11"><a href="#"></a></li>
+                    <li class="icon-12"><a href="#"></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="nav nav-pills pull-right">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#bio">bio</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="https://medium.com/@claudio-coelho" target="_blank">blog</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <a href="#">
+                <img id="logotipo" src="png/logotipo.png" alt="Logotipo">
+            </a>
+        </div>
+
+    </header>
+    <!-- bio-->
+    <section id="seccao1">
+        <div id="imagem-principal"></div>
+        <div class="container">
+            <ul>
+                <li><h3 class="text-banner"S>Developer</h3></li>
+                <li><h1 class="text-banner">Cláudio Coelho</h1></li>
+                <li><h3 class="text-banner">Full-Stack | UX/UI Designer</h3></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="bio">
+        <h1 id="bio-section-title">Bio</h1>
+        <div id="bio-div-container" class="container">
+            <div class="row">
+                <div id="bio-table" class="col-lg-6">
+                    <h1 id="bio-title" style="text-align: left">Better and Faster Taylor-made software</h1>
+                    <p style="text-align: justify">
+                        My journey in the IT world started when I was a manager in a completely different
+                        business sector. At that time there was an urgent need of getting new digital
+                        tools in order to be a competitive company, and I started to design, develop and
+                        implementing custom software in order to fill the business needs. That’s the reason
+                        why I have a taylor-made business mind set, that give me an enormous advantage in
+                        developing software, because I can get a faster and better solution that fits the client needs.
+                    </p>
+
+                    <div id="cv-button" class="col-lg-12" >
+                        <a href="./Claudio-Coelho-CV.pdf" download="Claudio-Coelho-CV.pdf">
+                            <button class="custom-btn btn-7"><span>🚀 Download CV</span></button>
+                        </a>
+                    </div>
+
+                    <div id="social-media-div" class="container">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2">
+                                <a id="bio-git-icon" href="https://github.com/Fuzo12/" target="_blank"><i class="fa fa-github" ></i></a>
+                            </div>
+                            <div  class="col-md-2">
+                                <a id="bio-linkedin-icon" href="https://pt.linkedin.com/in/cl%C3%A1udio-coelho-1b924552" target="_blank"><i class="fa fa-linkedin-square" ></i></a>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="bio-photo" class="col-lg-6">
+                    <img class="img-fluid" src="png/claudio.jpg">
+                </div>
+            </div>
+        </div><!-- end-bio -->
+
+    </section>
+
+    <!-- work -->
+    <section id="work">
+        <h1>Work</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <h3><span style="color:#A42447"> &#60/&#62</span>Algorithmics</h3>
+                </div>
+            </div>
+
+            <div id="projects" class="row">
+                <div id="fifa-logo" class="col-md-2">
+                    <a href="#popup-fifa"><img src="png/fifa-2022.png" alt="Fifa 2022"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <h3><span style="color:#A42447"> &#60/&#62</span>Web Application</h3>
+                </div>
+            </div>
+
+            <div id="web-application" class="row">
+                <div id="claudio" class="col-md-2">
+                    <a href="#popup-claudio"><img src="png/Claudio%20Developer-transp.png" alt="Claudio Coelho"></a>
+                </div>
+                <div id="waza-logo" class="col-md-2">
+                    <a href="#popup-waza"><img src="png/waza-logo.png" alt="Waza Systems"></a>
+                </div>
+                <div id="aqualine-logo" class="col-md-2">
+                    <a href="#popup-aqualine"><img src="png/aqualine-logo.png" alt="Aqualine"></a>
+                </div>
+                <div id="meditar-logo" class="col-md-2">
+                    <a href="#popup-meditar"><img src="png/meditar-logo.png" alt="Me Ditar"></a>
+                </div>
+                <div id="pearl-boats-logo" class="col-md-2">
+                    <a href="#popup-pearl"><img src="png/pearl-boats-logo.png" alt="Pearl Boats"></a>
+                </div>
+                <div id="villa-surf-logo" class="col-md-2">
+                    <a href="#popup-villasurf"><img src="png/villa-surf-logo.png" alt="Villa Surf"></a>
+                </div>
+
+                <div id="eduardo-viegas" class="col-md-2">
+                    <a href="#popup-eduardoviegas"><img src="png/eduardo-viegas-logo.png" alt="Eduardo Viegas"></a>
+                </div>
+
+                <div class="container">
+                    <div id="mobile-app" class="row">
+                        <div class="col-md-6">
+                            <br>
+                            <h3><span style="color:#A42447"> &#60/&#62</span>Mobile App</h3>
+                        </div>
+                    </div>
+                    <div id="mobile-logo" class="row">
+                        <div class="col-md-2">
+                            <a href="#work"><img id="activity-app" src="png/ActivityApp-logo.png" alt="Activity App"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end work -->
+
+        <!-- Pop-up Fifa-->
+        <div id="popup-fifa" class="overlay">
+            <div class="popup">
+                <h3>Fifa Algorithm</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-fifa" class="col-6" style="text-align: center">
+                            <img class="popup-img" src="png/fifa-code.jpg" alt="Fifa Algorithm">
+                        </div>
+                        <div class="col-6 pop-text">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                Algorithm that receives a data input and does the processing returning the
+                                output.<br><br>
+                                The input consists of several stickers (id, quantity) that should complete a sticker
+                                book.
+                                The first series corresponds to the user's stickers, the rest being friends'
+                                stickers.<br><br>
+                                The algorithm will check which friend has more stickers to trade ("greedy")
+                                and how many possible trades there are, making the trade.
+                                The output consists of the number of trades made and with which friend the trade was
+                                carried out.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>JAVA</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div id="div-fifa-buttons" class="col-md-12">
+                            <a class="git-button" href="https://github.com/Fuzo12/myProjects/tree/main/fifaAlgorithm" target="_blank"><i class="fa fa-github"></i></i>&nbsp&nbsp&nbspGitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end pop-up fifa -->
+
+        <!-- popup-claudio -->
+        <div id="popup-claudio" class="overlay">
+            <div class="popup">
+                <h3>Cláudio Coelho</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-claudio" class="col-6" style="text-align: center">
+                            <img id="claudio-img" class="popup-img" src="png/claudio-website.jpg" alt="Claudio Coelho">
+                        </div>
+                        <div class="col-6">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                This is my personal Website Project. You can find in
+                                my website my bio, work, skills and information about
+                                me.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap</li>
+                                <li>jQuery</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-12">
+                            <a class="button" href="#" target="_blank">Check Project</a>
+                            <a class="git-button" href="https://github.com/Fuzo12/myProjects/tree/main/myPortfolio" target="_blank"><i class="fa fa-github"></i></i>&nbsp&nbsp&nbspGitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end-popup-claudio -->
+
+        <!-- popup-waza-->
+                <div id="popup-waza" class="overlay">
+                    <div class="popup">
+                        <h3>Waza Systems</h3>
+                        <a class="close" href="#work">&times;</a>
+
+                        <div class="container">
+                            <div class="row">
+                                <div id="div-img-waza" class="col-6" style="text-align: center">
+                                    <img class="popup-img" src="png/Waza-site.jpg" alt="WazaSystems">
+                                </div>
+                                <div class="col-6">
+                                    <h6>About</h6>
+                                    <p style="font-size: 14px">
+                                        Website project for a web design and software company. The company is
+                                        specialized in web design, digital marketing and branding.
+                                        The website has several forms, a website simulator, and
+                                        information regarding the Waza Systems business.
+                                    </p>
+                                    <br>
+                                    <h6>Technologies:</h6>
+                                    <ul>
+                                        <li>Wordpress</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row" style="margin-top: 20px">
+                                <div class="col-md-12">
+                                    <a class="button" href="https://wazasystems.com" target="_blank">Check Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end-popup-waza -->
+
+                <!-- popup-aqualine-->
+                <div id="popup-aqualine" class="overlay">
+                    <div class="popup">
+                        <h3>Aqualine Tours</h3>
+                        <a class="close" href="#work">&times;</a>
+
+                        <div class="container">
+                            <div class="row">
+                                <div id="div-img-aqualine" class="col-6" style="text-align: center">
+                                    <img id="aqualine-img" class="popup-img" src="png/aqualine-site.jpg" alt="Aqualine Tours">
+                                </div>
+                                <div class="col-6">
+                                    <h6>About</h6>
+                                    <p style="font-size: 14px">
+                                        Website project and Fareharbor booking engine. The project
+                                        consists of a website integrated with a booking engine,
+                                        allowing customers to book online. Website built with focus
+                                        in SEO, Google Analytics, and other digital marketing tools.
+                                    </p>
+                                    <br>
+                                    <h6>Technologies:</h6>
+                                    <ul>
+                                        <li>Wordpress</li>
+                                        <li>Booking Engine Integration</li>
+                                        <li>SEO</li>
+                                        <li>Google Analytics</li>
+                                        <li>Digital Marketing</li>
+                                        <li>Social Media</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="work-aqualine-buttons" class="container">
+                            <div class="row" style="margin-top: 20px">
+                                <div class="col-md-12">
+                                    <a class="button" href="https://aqualinetours.com" target="_blank">Check Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end-popup-aqualine -->
+
+        <!-- popup-meditar -->
+        <div id="popup-meditar" class="overlay">
+            <div class="popup">
+                <h3>Projeto Me Ditar</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-meditar" class="col-6" style="text-align: center">
+                            <img class="popup-img" src="png/meditar-site.jpg" alt="Projeto Me Ditar">
+                        </div>
+                        <div class="col-6">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                Website project for Me Ditar company. Me Ditar is focus on the
+                                healthcare business, and the goal of this project is to reach
+                                out to clients.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>SEO</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-12">
+                            <a class="button" href="https://projetomeditar.com/" target="_blank">Check Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end-popup-meditar -->
+
+        <!-- popup-pearl -->
+        <div id="popup-pearl" class="overlay">
+            <div class="popup">
+                <h3>Pearl Boats Lda</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-pearl" class="col-6" style="text-align: center">
+                            <img class="popup-img" src="png/pearl-site.jpg" alt="Pearl Boats">
+                        </div>
+                        <div class="col-6">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                Website project for Pearl Boats company. Pearl Boats is focused
+                                in the nautical business, designing and building boats to Maritime Touristic
+                                companies. The goal of this project is to reach out to clients.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>SEO</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-12">
+                            <a class="button" href="https://www.pearl-boats.pt/" target="_blank">Check Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end-popup-pearl -->
+
+        <!-- popup-vilasurf -->
+        <div id="popup-villasurf" class="overlay">
+            <div class="popup">
+                <h3>Villa Surf Store</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-vilasurf" class="col-6" style="text-align: center">
+                            <img id="vilasurf-img" class="popup-img" src="png/villasurf-site.jpg" alt="Villa Surf Store">
+                        </div>
+                        <div class="col-6">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                Website and Social Media project for a store . The website is
+                                an E-commerce online store. The goal of this project is to reach
+                                out to clients through an e-commerce store, and social media.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>SEO</li>
+                                <li>E-Commerce</li>
+                                <li>Social Media</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-12">
+                            <a class="button" href="https://villasurfstore.com/" target="_blank">Check Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end-popup-vilasurf -->
+
+        <!--popup-eduardo -->
+        <div id="popup-eduardoviegas" class="overlay">
+            <div class="popup">
+                <h3>Eduardo Viegas</h3>
+                <a class="close" href="#work">&times;</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="div-img-eduardo" class="col-6" style="text-align: center">
+                            <img id="eduardo-img" class="popup-img" src="png/eduardoviegas-site.jpg" alt="Eduardo Viegas">
+                        </div>
+                        <div class="col-6">
+                            <h6>About</h6>
+                            <p style="font-size: 14px">
+                                Website and Social Media project for the artist Eduardo Viegas.
+                                Website with SEO and E-commerce. The goal of this project is to
+                                reach out to fans through an online platform and social media.
+                            </p>
+                            <br>
+                            <h6>Technologies:</h6>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>SEO</li>
+                                <li>E-Commerce</li>
+                                <li>Social Media</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-12">
+                            <a class="button" href="https://eduardoviegas.pt/" target="_blank">Check Project</a>
+                            <a class="git-button" href="https://github.com/Fuzo12/" target="_blank"><i class="fa fa-github"></i></i>&nbsp&nbsp&nbspGitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div> <!-- end-popup-eduardo -->
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h3><span style="color:#A42447" > &#60/&#62</span>Front-End</h3>
+                    <h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>React</li>
+                            <li>Vue</li>
+                            <li>Angular</li>
+                        </ul>
+                    </h4>
+
+                </div>
+                <div class="col-md-3">
+                    <h3><span style="color:#A42447" > &#60/&#62</span>Back-End</h3>
+                    <h4>
+                        <ul>
+                            <li>PHP</li>
+                            <li>JAVA</li>
+                            <li>Python</li>
+                            <li>Node.js</li>
+                            <li>Flask</li>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </h4>
+                </div>
+                <div class="col-md-3">
+                    <h3><span style="color:#A42447" > &#60/&#62</span>Mobile</h3>
+                    <h4>
+                        <ul>
+                            <li>Ionic</li>
+                            <li>React Native</li>
+                        </ul>
+                    </h4>
+                </div>
+
+                <div class="col-md-3">
+                    <h3><span style="color:#A42447" > &#60/&#62</span>DevOps</h3>
+                    <h4>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                        </ul>
+                    </h4>
+                    <br><br>
+                    <h3 style="margin-top: 0"><span style="color:#A42447" > &#60/&#62</span>Extra</h3>
+                    <h4>
+                        <ul>
+                            <li>Wordpress</li>
+                            <li>Agile Development</li>
+                            <li>CyberSecurity</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="lower-banner" >
+            <div class="container">
+
+                <ul id="lang-skills-bar" class="pull-right">
+                    <li class="icon-01"><a href="#skills"></a></li>
+                    <li class="icon-02"><a href="#skills"></a></li>
+                    <li class="icon-03"><a href="#skills"></a></li>
+                    <li class="icon-04"><a href="#skills"></a></li>
+                    <li class="icon-05"><a href="#skills"></a></li>
+                    <li class="icon-06"><a href="#skills"></a></li>
+                    <li class="icon-07"><a href="#skills"></a></li>
+                    <li class="icon-08"><a href="#skills"></a></li>
+                    <li class="icon-09"><a href="#skills"></a></li>
+                    <li class="icon-10"><a href="#skills"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <h1>Contact</h1>
+        <h5 style="text-align: center">📧&nbspclaudiocoelho181@hotmail.com</h5>
+        <br><br>
+        <div class="container">
+            <div class="row" style="text-align: center">
+                <!-- Box1 -->
+                <div class="col-md-4"></div>
+                <!-- Box2 -->
+                <div id="box2" class="col-md-4" style="width: 50%; margin: 0 auto; text-align: left">
+                    <div id="box-form">
+                        <form method="POST" action="formulario.php">
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="first-name">Full name*</label>
+                                        <input type="text" class="form-control" id="first-name" placeholder="first" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="last-name" style="color: #FFFFFF"> .</label>
+                                        <input type="text" class="form-control" id="last-name" placeholder="last">
+                                    </div>
+                                </div>
+                                <!-- Email -->
+                                <div class="form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="email" name="email" id="email" class="form-control" required>
+                                </div>
+                                <!-- Message -->
+                                <div class="form-group">
+                                    <label for="message">Message*</label>
+                                    <textarea id="message" name="message" rows="5" cols="40" style="color: #6c757d"
+                                              placeholder="send me a few words..." required></textarea>
+                                </div>
+                                <!-- I'm not a Robot -->
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                        <label class="form-check-label" for="gridCheck">I'm not a Robot!</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-dark">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Box3 -->
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+
+        <div class="floating-container">
+            <a href="./Claudio-Coelho-CV.pdf" target=pdf-frame" class="btn btn-primary btn-sm"><span>Check My CV</span></a>
+        </div>
+
+    </body>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div id="m1" class="col-md-3"></div>
+                <div class="col-md-6">
+                    <p class="text-footer" style="background-color:black ">
+                        <small class="text-footer">
+                            <span>©2023 Designed by </span>
+                            <span style="color:#A42447"> &#60/&#62</span>
+                            <a href="#" >Claudio Coelho</a>
+                        </small>
+                    </p>
+                </div>
+                <div id="m2" class="col-md-3">
+                    <a id="footer-git-icon" href="https://github.com/Fuzo12/" target="_blank"><i class="fa fa-github"></i></a>&nbsp
+                    <a id="footer-linkedin-icon" href="https://pt.linkedin.com/in/cl%C3%A1udio-coelho-1b924552" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//code.jivosite.com/widget/NoRg0i4nv5" async></script>
+    <script src="js/efeitos.js"></script>
+</html>

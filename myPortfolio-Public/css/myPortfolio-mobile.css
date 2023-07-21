@@ -1,0 +1,504 @@
+/*Tamanho padrão para tablet*/
+@media only screen and (max-width: 950px) and (min-width:700px){
+   .header-black {
+        display: none;
+    }
+    header{
+        height: 50px;
+    }
+    header #logotipo{
+        display: none;
+    }
+    #menu ul{
+        top:12px;
+        display: inline;
+        position: absolute;
+        right: 25px;
+    }
+    #imagem-principal{
+        top: -142px;
+        height: 450px;
+    }
+    #seccao1 h1 {
+        top: -415px;
+        font-size: 30px;
+        margin-left: -30px;
+    }
+    #seccao1 h3 {
+        top: -415px;
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    #bio {
+        height: 310px;
+    }
+    #bio-section-title {
+        top: -80px;
+        position: relative;
+    }
+    #bio-title {
+        font-size: 25px;
+        top: -132px;
+        position: relative;
+        text-align: center!important;
+    }
+    #bio p {
+        font-size: 18px;
+        position: relative;
+        top: -125px;
+    }
+    #bio .col-md-2 {
+        top: 254px;
+        width: 16.66666%;
+    }
+    #bio-photo {
+        display: none;
+    }
+    #cv-button {
+        top: -100px;
+    }
+    #social-media-div{
+        position: relative;
+        top: -355px;
+    }
+    #bio-git-icon {
+
+        color: #1b1e21;
+        font-size: 40px !important;
+    }
+    #bio-linkedin-icon {
+
+        color: #1b1e21;
+        font-size: 40px !important;
+    }
+    .git-button {
+        top: 350px;
+    }
+    #work {
+        height: 930px;
+    }
+    #work h1 {
+        top: -80px;
+        position: relative;
+    }
+    #work .col-md-6 h3 {
+        font-size: 20px;
+    }
+    #work .col-md-6 {
+        top: -100px;
+    }
+    #projects {
+        top: -100px;
+        position: relative;
+    }
+    #web-application {
+        top: -100px;
+        position: relative;
+    }
+    #mobile-app {
+        top: 87px;
+        position: relative;
+    }
+    #div-img-fifa, #div-img-claudio, #div-img-waza, #div-img-aqualine,
+    #div-img-pearl, #div-img-meditar, #div-img-vilasurf, #div-img-eduardo {
+        display: none;
+    }
+    #work .col-6 {
+        flex: 0 0 100%;
+    }
+    .popup {
+        position: relative;
+        top: 0;
+        padding: 20px;
+        margin: 20px 20px 20px 20px;
+        left: 0;
+        max-height: 92%;
+    }
+    /*overlay do pop-up */
+    .overlay {
+        z-index: 1000;
+    }
+    .popup p, li{
+        font-size: 13px;
+    }
+    .button {
+        top: -5px;
+    }
+    .git-button {
+        top: -5px;
+    }
+    #work-aqualine-buttons {
+        top: -60px;
+        position: relative;
+    }
+    #div-fifa-buttons {
+        top: -65px;
+        position: relative;
+    }
+    #skills {
+        height: 680px;
+    }
+    #skills .container {
+        top: -50px;
+        position: relative;
+        padding-top: 0px;
+    }
+    #skills h1 {
+        top: -80px;
+        position: relative;
+    }
+    #skills h3 {
+        font-size: 20px;
+    }
+    #skills li {
+        font-size: 18px;
+    }
+    #contact {
+        height: 750px;
+    }
+    #contact h1{
+        top: 20px;
+        position: relative;
+    }
+    #contact h5 {
+       top: -22px;
+       font-size: 18px;
+       position: relative;
+    }
+    #box-form {
+        top: -45px;
+        right: 37px;
+        position: absolute;
+    }
+    /*social-media-icons*/
+    #m2 {
+        display: none;
+    }
+    /* whatsapp*/
+    jdiv {
+        max-height: 290px!important;
+    }
+}
+/*Tamanho padrão para telemóveis*/
+@media only screen and (max-width: 699px){
+    .header-black ul{
+        display: none;
+    }
+    header{
+        height: 41px;
+
+    }
+    header #menu {
+        display: none;
+    }
+    header #logotipo{
+        position: absolute;
+        top: -118px;
+    }
+    #btn-bars{
+        position: absolute;
+        font-size: 25px;
+        color: rgba(179,31,72, .7);
+        top: -19px;
+        right: -10px;
+        border: none;
+        background: none;
+        display: block;
+        outline: 0;
+}
+    #btn-bars:active {
+        color: rgba(179,31,72, .99);
+        border: none;
+        background: none;
+    }
+    #imagem-principal{
+        height: 850px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+    section {
+        padding-top: 25px;
+    }
+    #seccao1 h1{
+        top: -595px;
+        font-size: 37px;
+        margin-left: -30px;
+    }
+    #seccao1 h3{
+        top: -595px;
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    #bio{
+        height: 810px;
+    }
+    #bio-table.col-lg-6 {
+        padding: 0px 50px 0px 50px;
+    }
+
+    #bio-photo.col-lg-6 {
+        top: -134px;
+        padding: 20px 80px 20px 80px;
+    }
+    #cv-button {
+        top: 260px;
+    }
+    #work {
+        height: 1345px;
+    }
+    #work .container h3 {
+        text-align: center;
+    }
+    #work .col-md-2 {
+        left: 0;
+    }
+    #skills {
+        height: 1290px;
+    }
+    #skills ul.pull-right {
+        display: none;
+    }
+
+    #contact {
+        height: 700px;
+    }
+    .contact h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    #box-form {
+        width: 345px;
+        height: 550px;
+        margin-left: -92px;
+    }
+    #message{
+        width: 284px;
+    }
+    .form-check {
+        text-align: center;
+    }
+    .btn-dark {
+        top: -17px;
+        position: relative;
+        left: 88px;
+    }
+    #work{
+        height: 1140px;
+    }
+    #work h1{
+        left: 7px;
+        position: relative;
+    }
+    #work .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #web-application .col-md-2{
+        width: 50%;
+        margin-top: 15px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #work img{
+        height: 80px;
+        width: 80px;
+    }
+    #mobile-logo .col-md-2{
+        width: 100%;
+    }
+    #skills{
+        height: 1340px;
+    }
+    #skills .container {
+        padding-top: 0;
+    }
+    #skills .col-md-3{
+        padding: 0;
+    }
+    #skills h1{
+        margin-bottom: 15px;
+        position: relative;
+        left: 8px;
+    }
+    #skills h3{
+        text-align: center;
+        margin-top: 28px;
+        margin-bottom: 0;
+    }
+
+    #skills h4 ul li{
+        text-align: center;
+        list-style-type: none;
+        left: -12px;
+        position: relative;
+    }
+    .popup {
+        position: relative;
+        margin: 5px;
+        height: 500px;
+        width: 97%;
+        top: 15%;
+        left: 0;
+        padding: 0;
+    }
+    .popup h3{
+        position: relative;
+        top: 15px;
+        margin-bottom: 40px;
+    }
+    .col-6 {
+        position: absolute;
+        max-width: 90%;
+    }
+    #work .popup-img{
+        display: none;
+    }
+    #work .button{
+        top: 350px;
+    }
+    /* menu do mobile*/
+    .visible-xs {
+        display: contents;
+    }
+    header.open-menu {
+        position: fixed;
+        top: 0px;
+        background-color: rgba(4,4,5, .98);
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        transition: 0.3s;
+        z-index: 1000;
+    }
+    header.open-menu #menu-mobile {
+        left: 0;
+    }
+    header.open-menu #menu-mobile ul {
+        top: 100px;
+        list-style-type: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    header.open-menu #menu-mobile li{
+        text-align: center;
+        border-top: #FFFFFF ;
+        margin: 20px 0 20px 0;
+        top: 50px;
+        position: relative;
+    }
+    header.open-menu #menu-mobile li a{
+        font-family: Outfit;
+        font-size: 28px;
+        color: rgb(179,31,72);
+
+    }
+    /* logotipo do menu*/
+    header.open-menu #logotipo{
+        position: absolute;
+        top: -538px;
+    }
+    /* barra preta do menu do mobile*/
+    header.open-menu .header-black {
+        top: -498px;
+        position: relative;
+    }
+    /* botão para fechar menu*/
+    header.open-menu .bar-close {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(179,31,72, .7);;
+        height: 40px;
+        width: 100%;
+    }
+    header.open-menu #close-x{
+        background: none;
+        border: none;
+        position: relative;
+        left: 310px;
+        bottom: 22px;
+        font-size: 22px;
+    }
+    header .list-unstyled {
+        display: none;
+    }
+    header.open-menu .list-unstyled{
+        display: contents;
+        top: 100px;
+    }
+    header.open-menu .list-unstyled li {
+        transition: 2s;
+    }
+    .header-black {
+        position: relative;
+        height: 42px;
+        top: -78px;
+    }
+    header .header-black {
+        height: 42px;
+    }
+    #open-menu-itens {
+        top: 10px;
+    }
+    #close-x {
+        top: -22px;
+        outline: 0;
+        border-radius: 0;
+        position: relative;
+    }
+    h1 {
+        top: 25px;
+    }
+    #bio-section-title {
+        position: relative;
+        top: 25px;
+    }
+    #bio-title h1{
+        top: -8px;
+    }
+    .contact h1, h5 {
+        position: relative;
+        top: 25px;
+    }
+    #bio .col-md-2 {
+        top: 254px;
+        width: 16.66666%;
+    }
+    #bio-git-icon {
+        color: #1b1e21;
+        font-size: 40px !important;
+    }
+    #bio-linkedin-icon {
+        color: #1b1e21;
+        font-size: 40px !important;
+    }
+    .git-button {
+        top: 350px;
+    }
+    /*overlay do pop-up*/
+    .overlay {
+        z-index: 1000;
+    }
+    /*Formulário contacto*/
+    #box-form {
+        width: 345px;
+        height: 500px;
+        margin-left: -92px;
+        position: relative;
+        top: -11px;
+        padding: 20px 20px 20px 20px;
+    }
+    .form-check {
+        top: -11px;
+    }
+    .btn-dark {
+        top: -39px;
+    }
+    /*footer: ocultar os icons das redes sociais*/
+    #m1, #m2 {
+        display: none;
+    }
+
+}
+
